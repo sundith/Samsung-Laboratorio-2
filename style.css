@@ -1,0 +1,108 @@
+
+body{
+    font-family: "calibri";
+    Background-color: #1f242e;
+  
+}
+
+.formContainer{ 
+    background-color: #3c4557;
+    border: 2px solid #363b4d;
+    font-size: 12px;
+    font-weight: 550;
+    border-radius: 10px;
+    margin:auto;
+    max-width: 330px;
+}
+
+h1{
+    color: #bac6f0;
+    font-size: 30px;
+    height: 30 px;
+    width: 80%;
+    margin: auto;
+    line-height: 10px;
+    margin-top: 30px;
+    display: block;
+}
+
+label{
+    color:#bac6f0;
+    width: 80%;
+    margin: 5px auto;
+    font-size: 15px;
+    font-weight: 12px;
+    display: block;
+}
+
+
+.formElement{
+    width: 80%;
+    height: 35px;
+    margin: auto;
+    border-radius: 3px;
+    border: none;
+    text-indent: 12px;
+    display: block;
+}
+
+span{
+    color: red;
+    width: 80%;
+    margin: auto;
+    font-size: 10px;
+    display: block;
+}
+
+
+#button{
+    color: white;
+    width: 82%;
+    height: 40px;
+    margin: 15px auto;
+    margin-bottom: 30px;
+    background-color: #5a52ec;
+    border: 2px #1f242e solid;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 400;
+    display: block;
+    cursor: pointer;
+}
+
+.input-control{
+    margin: 3em auto;
+    height: 60px;
+    display: block;
+}
+
+
+
+.valid{
+    box-shadow: inset 0 0 0 2px green;
+    border-radius: 5px;
+}
+
+.invalid{
+    box-shadow: inset 0 0 0 2px red;
+    border-radius: 5px;
+}
+
+.errorIcon {
+    background-image: url('images/error-icon.svg');
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-x: 240px;
+    background-position-y:8px;
+}
+
+.successIcon {
+background-image: url('images/success-icon.svg');
+background-repeat: no-repeat;
+background-size: 20px;
+background-position-x: 240px;
+background-position-y: 8px;
+}
+
+
+ 

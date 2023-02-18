@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Laboratorio 2</title>
+</head>
+<body>
+    <div class="formContainer">
+    <form name="createaccount">
+        <h1> Create Account </h1>
+        <!--Campo Nombre-->
+        <div class="input-control">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="name" value="" id="name" class="formElement" autocomplete="off" />
+            <span id="nameError"></span>
+        </div>
+        <!--Campo Email-->
+        <div class="input-control">
+            <label for="email">Email</label>
+            <input type="email" name="email" value="" id="email" class="formElement" autocomplete="off" />
+            <span id="emailError"></span>
+        </div>
+        <!--Campo Contraseña-->
+        <div class="input-control">
+            <label for="clave">Clave</label> 
+            <input type="password" name="password" value="" id="password" class="formElement" />
+            <span id="passError"></span>
+        </div>
+        <!--Campo Confirmar clave-->
+        <div class="input-control">
+            <label for="confirmesuclave">Confirme su clave</label> 
+            <input type="password" name="confirm" value="" id="confirm" class="formElement" />
+            <span id="confirmError"></span>
+        </div>
+        <!--Boton enviar-->
+    <input type="submit" value="ENVIAR" id="button" onclick="return nombreValido(), emailValido(), passwordValido(), verificarValido(), formularioValido()"/>
+    </form>
+    </div>
+    <script src="index.js" type="text/javascript"></script> 
+</body>
+</html>
+
